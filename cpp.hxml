@@ -1,0 +1,14 @@
+-cp game
+-cp engine
+-main Main
+-D HXCPP-GC-GENERATIONAL
+-D HXCPP_GC_SUMMARY
+-D HXCPP_STACK_TRACE
+-D HXCPP_STACK_LINE
+-D HXCPP_CPP11
+-D HXCPP_TIMES
+-cpp build/cpp
+
+-lib raylib-hx
+-lib ase
+-lib ldtk-haxe-api

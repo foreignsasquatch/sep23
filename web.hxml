@@ -1,0 +1,15 @@
+-p game
+-p engine
+-m Main
+-D emscripten
+-cpp build/web
+
+-D disable-unicode-strings
+-D wasm_no_asnyc
+-D HXCPP_LINK_EMSCRIPTEN_EXT=.html
+-D ASSET_PATH=/home/fsasquatch/Desktop/personal/2023/sep23/assets@assets
+-resource assets/data/cfg.fb@cfgfile
+
+-lib raylib-hx
+-lib ase
+-lib ldtk-haxe-api
